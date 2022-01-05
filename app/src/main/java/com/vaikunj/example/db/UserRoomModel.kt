@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "vaikunj_table")
 data class UserRoomModel(
 
+
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
     var id: Int,
